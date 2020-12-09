@@ -52,11 +52,10 @@ public class RecListApp {
 		
 		
 		System.out.println("#모든 사각형의 넓이 합 출력=======================================");
-		//모든 사각형의 넓이 합 구하기 코드 작성
+		//모든 사각형의 넓이 합 구하기 코드 작성	
 		for(int i=0; i<rList.size(); i++) {
 			
-			sum = rList.get(i).area();
-			sum = sum + sum;
+			sum =  sum + rList.get(i).area();
 			
 		}
 		
